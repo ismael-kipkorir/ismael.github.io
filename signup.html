@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html>
+    <head>
+      <title>Sign Up</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta charset="utf-8" />
+      <link rel="stylesheet" href="cxstyle.css" />
+      
+     <style>
+      form{
+        text-align:center ;
+        background-color: brown;
+        border-color: yellowgreen;
+      }
+      body{
+        background-color: blueviolet;
+      }
+      input[type=text]{
+        height: 30px;
+        width: 300px;
+        background-color: aqua;
+        border-radius: 20px;
+      }
+      input[type=password]{
+        height: 30px;
+        width: 300px;
+        background-color: aqua;
+        border-radius: 20px;
+      }
+        input[type=phone]{
+          height: 30px;
+          width: 200px;
+      }h1 {background-color: yellow;
+        text-decoration-color: yellowgreen;
+      }
+      input[type=sign-up]{width: 40px;
+        height: 50px;
+
+      }
+      button[type=button]{float: center;
+      padding: 15px;
+    background-color: rgb(158, 160, 24);border-radius: 10px;}
+      label{
+        text-align: center;
+      }
+       ::placeholder{
+        text-align: center;
+        color: brown;
+
+       }
+       input[type=radio]{
+        background-color: brown;
+
+       }
+       input[type=phone]{
+        background-color: rgb(42, 165, 48) ;
+       }
+       a:hover{
+        color: rgb(211, 60, 60);
+      }
+     
+      a:link{
+        color: blue;
+      }
+     </style>
+    </head>
+
+    <body><marquee><center><h1>SIGNUP PAGE</a></h1></center></marquee>
+      <div class="page">
+        <div class="navbar">
+        <ul>
+          <li><a href="Home.html" class="Home">Home</a></li>
+          <li><a href="Login.html" class="Login">Login</a></li>
+          <li><a href="signup.html" class="signup">signup</a></li>
+        </ul>
+        </div>
+
+      <div class="login-page">
+        <div class="form">
+          <form>
+           <label>FULL NAME</label><br>
+            <input type="text" placeholder="full name" required/><br/><p>
+             
+            <label>PASSWORD</label><br>
+            <input type="password" id="password" placeholder="set a password" </br></p>
+            <tr><label>Confirm password:</label><br>
+            <input type="password" placeholder="Confirm Password" /></tr><br />
+            <tr>
+              <label>EMAIL ADDRESS</label><br>
+              <input type="text" placeholder="email address" required/><br/></p>
+              <h2><td>Gender :</td></h2><h4>
+              <td>
+               <input type="radio" name="gender" value="m" required>Male
+               <input type="radio" name="gender" value="f" required>Female
+              </td></h4>
+             </tr>
+            
+            <br>
+            <tr>
+             <h2> <td>Phone no :</td>
+              <td>
+               <select name="phoneCode" required>
+                <option selected hidden value="">Select Code</option>
+                <option value="+254">+254</option>
+                <option value="+224">+224</option>
+                <option value="+264">+264</option>
+                <option value="00">00</option>
+                <option value="+234">+234</option>
+                <option value="11">11</option>
+               </select>
+               <input type="phone" name="phone" required>
+              </td></tr></h2><br>
+              <tr>
+                <td><input type="file" name="file"></td>
+               </tr>
+          </form>
+
+          <form class="login-form">
+            <a href="LOGIN.html"> <button type="button"> SIGN UP</a></button>
+              
+            </button>
+          </form>
+        </div>
+      </div>
+    </body>
+    
+  </html>
+</html>

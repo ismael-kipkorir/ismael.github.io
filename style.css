@@ -1,0 +1,226 @@
+
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, brown,tomato);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 95vw;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+}
+
+main.container {
+    background: rgb(47, 145, 76);
+    min-width: 320px;
+    min-height: 40vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+main h2 {
+    font-weight: 600;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+main h2::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 25px;
+    bottom: 3px;
+    left: 0;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #8e2de2, #4a00e0);
+}
+.class.login-page{
+    background-color: #79c786;
+}
+
+form {
+    display:inline-block;
+    flex-direction: row;
+    background-color: #13974a;
+    width: fit-content;
+    height: fit-content;
+    padding:2%;
+    text-align: center;
+}
+
+.input-field {
+    position: relative;
+}
+
+form .inputd:first-child {
+    margin-bottom: 1.5rem;
+}
+
+.input-field .underline::before {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.input-field .underline::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: linear-gradient(45deg, #8e2de2, #4a00e0);
+    transform: scaleX(0);
+    transition: all .3s ease-in-out;
+    transform-origin: left;
+}
+
+.input-field input:focus ~ .underline::after {
+    transform: scaleX(1);
+}
+
+.input-field input {
+    outline: none;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 1, 0.7);
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.input-field input::placeholder {
+    color: rgba(0, 0, 1, 0.5);
+    text-align: center;
+}
+
+form input[type="submit"] {
+    margin-top: 2rem;
+    padding: 0.4rem;
+    width: 100%;
+    background: linear-gradient(to left, #4776E6, #8e54e9);
+    cursor: pointer;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 300;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    opacity: 2;
+}
+
+form input[type="submit"]:hover {
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right, #4776E6, #8e54e9);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.footer span {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.footer .social-field {
+    padding: 0.4rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.footer .social-field a i {
+    margin: 0 0.5rem;
+    width: 15px;
+}
+
+.footer .social-field a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer .social-field.twitter {
+    background: linear-gradient(to right, #56a7f2, #468aca);
+}
+
+.footer .social-field.facebook {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+}
+.div.mainimg{ 
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue; 
+    float: left;
+
+}
+div.machine{
+    margin-top: 40px;
+    background-color: #6d2354;
+}
+
+div.matin{ 
+    width: 100%;
+    height: 200px;
+background-color: #6d2354;
+    text-align: center;
+    margin-top: 40px;
+}
+div.container{height: 100%;
+    width: 100%;
+    background-color: rgb(173, 18, 104);
+    margin-top: 50px;
+
+}
+.navbar{
+    width: 100%;
+    background-color: #236d54;
+}
+.div.header{text-align: top;
+            color: red;
+
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 60px 0px 0px 0px;
+    overflow: hidden;
+    background-color: rgb(119, 34, 98);
+  }
+  
+  li {
+    float: LEFT;
+    width: 20%;
+  }
+  li a {
+    display: flex;
+    color: rgb(32, 169, 179);
+    text-align: center;
+    padding: 10px 150px 10px 150px;
+    text-decoration: none;
+    border-left: 1px solid rgb(187, 187, 187);
+    
+  }
+  * {
+    box-sizing: border-box;
+    }
+    .class.body{
+        width: 10px;
+    }
+    
